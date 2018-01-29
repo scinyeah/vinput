@@ -1,0 +1,30 @@
+{
+  "name": "vinput",
+  "version": "0.1.0",
+  "description": "Node.js Virtual Input",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "install": "prebuild-install || node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scinyeah/vinput.git"
+  },
+  "keywords": [
+    "input",
+    "mouse",
+    "keyboard"
+  ],
+  "author": "Scinyeah",
+  "license": "MIT",
+  "gypfile": true,
+  "homepage": "https://github.com/scinyeah/vinput",
+  "dependencies": {
+    "nan": "^2.2.1",
+    "prebuild-install": "^2.1.1"
+  },
+  "devDependencies": {
+    "prebuild": "v6.1.0"
+  }
+}
